@@ -75,7 +75,7 @@ st.markdown(css_js, unsafe_allow_html=True)
 
 # Main content area
 if st.session_state.active_button == "external_site":
-    st.markdown("<div class='full-iframe-container'><iframe src='https://app.powerbi.com/reportEmbed?reportId=4b89fc6e-6b76-4aee-b58c-b3048eb29fc3&autoAuth=true&ctid=29656626-bbab-4437-ba66-213753425fd1' class='full-iframe'></iframe></div>", unsafe_allow_html=True)
+    st.markdown("<div class='full-iframe-container'><iframe src='https://www.google.com' class='full-iframe'></iframe></div>", unsafe_allow_html=True)
 elif st.session_state.active_button == "show_filters":
     st.title("Filters")
     with st.expander("Filters"):
